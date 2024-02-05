@@ -17,11 +17,11 @@ default = []
 [dependencies]
 anchor-lang = "0.26"
 anchor-spl = "0.26"
-spl-token = {version = "3.3", features = ["no-entrypoint"]}
+spl-token = { version = "3.3", features = ["no-entrypoint"] }
 solana-program = "1.14.12"
 thiserror = "1.0"
-uint = {version = "0.9.1", default-features = false}
-borsh = "0.9.1"
+uint = { version = "0.9.1", default-features = false }
+borsh = { version = "0.9.1", features = ["const-generics"] }
 mpl-token-metadata = { version = "1.7", features = ["no-entrypoint"] }
 
 [dev-dependencies]
